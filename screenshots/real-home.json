@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Local Studies | Gulf County, FL",
+      "hasCanvas": false,
+      "bodyTextLen": 1713,
+      "bodyTextHash": "efe27860c8ee35b8c083ccbaf4c2c7b2baa15bb86ea58fac4644666ebab7398a",
+      "bodyTextPrefix": "Skip to main content LOCAL STUDIES GULF COUNTY, FL MAP EXPLORE D",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/real-home.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Local Studies | Gulf County, FL",
+      "hasCanvas": false,
+      "bodyTextLen": 1618,
+      "bodyTextHash": "f9cc101847a1205ea91aa39b634cdaf8b3fbbcb3814d4172251b85ab4da121ce",
+      "bodyTextPrefix": "Skip to main content LIVE NOW Sunrise Today 6:15 AM 3 Turtle Nes",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/real-home-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/real-home.json"
+}

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Local Studies | Gulf County, FL",
+      "hasCanvas": false,
+      "bodyTextLen": 1861,
+      "bodyTextHash": "7878ee22e97523a0e5feee9af2afaee1b5963970ae92da748a7257fd6ba6096d",
+      "bodyTextPrefix": "Skip to main content LOCAL STUDIES GULF COUNTY, FL Real data. Lo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/home-before.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Local Studies | Gulf County, FL",
+      "hasCanvas": false,
+      "bodyTextLen": 1684,
+      "bodyTextHash": "f2bced7a87ae1c8b2d55cc0b578ed9397a06ebdf037a969cfc48d0263a121c80",
+      "bodyTextPrefix": "Skip to main content LIVE GULF COUNTY Sunset Tonight 7:18 PM 3 T",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/home-before-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/home-before.json"
+}

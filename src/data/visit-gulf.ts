@@ -1,0 +1,107 @@
+export const VISIT_GULF = {
+  source: "Gulf County TDC, visitgulf.com, pulled August 22, 2026",
+  portStJoe:
+    "On the shore of St. Joseph Bay lies Port St. Joe, a small beach town with a big heart. Historic downtown sits one block off Highway 98. Point South Marina is the boating hub in town.",
+  marina: "Point South Marina, Port St. Joe",
+  scallops: {
+    status: "Closed",
+    season: "2026 recreational bay scallop harvest",
+    zone: "Gulf County Zone",
+    note: "Visit Gulf and FWC: 2026 Gulf County bay scallop season is closed because of very low bay scallop abundance. Do not harvest.",
+    url: "https://www.visitgulf.com/events/",
+  },
+  beachFlags:
+    "Gulf County beach flags on Cape San Blas and Indian Pass are posted by South Gulf Fire Rescue and community volunteers. St. Joe Beach is not in that system. There is no public flag API. Check their Facebook page before you swim.",
+  welcomeCenter: {
+    name: "Gulf County Welcome Center",
+    address: "150 Captain Fred's Place, Port St. Joe, FL 32456",
+    hours: "Monday to Thursday, 7:00 AM to 5:30 PM Eastern",
+  },
+};
+
+export const VISIT_GULF_EVENTS = [
+  {
+    id: "vg-bingo-0824",
+    title: "Monday Night Bingo at the VFW",
+    startsOn: "2026-08-24",
+    startTime: "6:00 PM",
+    location: "John C. Gainous VFW Post 10069",
+    city: "Port St. Joe",
+    category: "community" as const,
+    description: "Weekly Monday bingo. Listed on the official Gulf County TDC events calendar at visitgulf.com.",
+    organizer: "Gulf County TDC / Visit Gulf",
+    url: "https://www.visitgulf.com/event/monday-night-bingo-at-the-vfw/1497/",
+  },
+  {
+    id: "vg-skim-0829",
+    title: "Cape San Blas Skim and Surf Contest 2026",
+    startsOn: "2026-08-29",
+    location: "South side of William J. Billy Joe Rish Recreation Area",
+    city: "Cape San Blas",
+    category: "outdoor" as const,
+    description: "Skim and surf contest on Cape San Blas. Official Visit Gulf listing.",
+    organizer: "Gulf County TDC / Visit Gulf",
+    url: "https://www.visitgulf.com/event/cape-san-blas-skim-%26-surf-contest-2026/1507/",
+  },
+  {
+    id: "vg-scallop-fest-0905",
+    title: "2026 Florida Scallop, Music and Arts Festival",
+    startsOn: "2026-09-05",
+    endOn: "2026-09-06",
+    location: "Gulf County Veterans Memorial Park",
+    city: "Beacon Hill",
+    category: "seasonal" as const,
+    description:
+      "Labor Day weekend festival at Veterans Memorial Park, 8750 W Hwy 98. Presented by the Gulf County Chamber of Commerce. Ticketed. Harvest is closed this year. The festival still runs.",
+    organizer: "Gulf County Chamber of Commerce",
+    url: "https://www.visitgulf.com/event/2026-florida-scallop-music-%26-arts-festival/1484/",
+  },
+  {
+    id: "vg-market-0905",
+    title: "2026 Salt Air Farmer's Market",
+    startsOn: "2026-09-05",
+    endOn: "2026-12-19",
+    location: "George Core Park",
+    city: "Port St. Joe",
+    category: "markets" as const,
+    description: "Seasonal farmers market at George Core Park, September 5 through December 19, 2026. Official Visit Gulf listing.",
+    organizer: "Gulf County TDC / Visit Gulf",
+    url: "https://www.visitgulf.com/event/2026-salt-air-farmers-market/1441/",
+  },
+  {
+    id: "vg-tram-0917",
+    title: "St. Joseph Bay State Buffer Preserve Guided Tram Tour",
+    startsOn: "2026-09-17",
+    location: "St. Joseph Bay State Buffer Preserve",
+    city: "Port St. Joe",
+    category: "conservation" as const,
+    description: "Guided tram tour with Friends of St. Joseph Bay Preserve. Official Visit Gulf listing.",
+    organizer: "Friends of St. Joseph Bay Preserve",
+    url: "https://www.visitgulf.com/event/st-joseph-bay-state-buffer-preserve-guided-tram-tour/1471/",
+  },
+  {
+    id: "vg-music-1010",
+    title: "2026 Forgotten Music Festival",
+    startsOn: "2026-10-10",
+    endOn: "2026-10-11",
+    location: "162 Miss Zola's Dr",
+    city: "Port St. Joe",
+    category: "music" as const,
+    description: "Eighth annual Forgotten Music Festival. Presented by the Gulf County Chamber of Commerce. Ticketed.",
+    organizer: "Gulf County Chamber of Commerce",
+    url: "https://www.visitgulf.com/event/2026-forgotten-music-festival/1443/",
+  },
+];
+
+export const FL_CHAMBER = {
+  source: "Florida Chamber Foundation, 2026 Business and Economic Mid-Year Report",
+  url: "https://www.flchamber.com/florida-chamber-foundations-business-economic-mid-year-report-shows-floridas-economy-remains-strong-as-growth-moderates/",
+  asOf: "August 2026",
+  economy: "$1.8 trillion",
+  economyNote: "Florida statewide economy. Not a Gulf County figure.",
+  netMigrationPerDay: 551,
+  homeSales: "Single-family home sales up year over year for 10 consecutive months (statewide).",
+  kindergartenReady: "44% of Florida children entered kindergarten ready to learn in fall 2025 (statewide).",
+  kindergartenUrl:
+    "https://www.flchamber.com/florida-chamber-foundation-early-learning-report-finds-more-than-half-of-floridas-youngest-learners-start-kindergarten-already-behind/",
+};
